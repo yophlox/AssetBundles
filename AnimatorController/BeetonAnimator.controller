@@ -1,0 +1,200 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!91 &9100000
+AnimatorController:
+  m_Name: BeetonAnimator
+  serializedVersion: 2
+  m_AnimatorParameters:
+  - m_Name: move
+    m_Type: 4
+    m_DefaultFloat: 0
+    m_DefaultInt: 0
+    m_DefaultBool: 0
+    m_DefaultController: {fileID: 9100000}
+  m_AnimatorLayers:
+  - serializedVersion: 3
+    m_Name: Base Layer
+    m_StateMachine: {fileID: 1107495864429789506}
+    m_Mask: {fileID: 0}
+    m_BlendingMode: 0
+    m_SyncedLayerIndex: -1
+    m_StateMachineMotionSetIndex: 0
+    m_DefaultWeight: 0
+    m_IKPass: 0
+    m_SyncedLayerAffectsTiming: 0
+    m_Controller: {fileID: 9100000}
+--- !u!1107 &1107495864429789506
+StateMachine:
+  serializedVersion: 2
+  m_Name: Base Layer
+  m_States:
+  - {fileID: 1102581618530655769}
+  - {fileID: 1102441677617071046}
+  - {fileID: 1102114866035339962}
+  - {fileID: 1102224467665363988}
+  m_ChildStateMachine: []
+  m_ChildStateMachinePosition: []
+  m_MotionSetCount: 1
+  m_OrderedTransitions:
+    data:
+      first: {fileID: 1102114866035339962}
+      second:
+      - {fileID: 1101150636033890354}
+    data:
+      first: {fileID: 1102224467665363988}
+      second:
+      - {fileID: 1101107852588073447}
+    data:
+      first: {fileID: 1102441677617071046}
+      second:
+      - {fileID: 1101409747776966984}
+    data:
+      first: {fileID: 1102581618530655769}
+      second:
+      - {fileID: 1101842485939749152}
+  m_StateMachineTransitions: {}
+  m_AnyStatePosition: {x: 0, y: -250, z: 0}
+  m_EntryPosition: {x: 250, y: -250, z: 0}
+  m_ExitPosition: {x: 500, y: -250, z: 0}
+  m_ParentStateMachinePosition: {x: 800, y: 20, z: 0}
+  m_DefaultState: {fileID: 1102581618530655769}
+--- !u!1102 &1102581618530655769
+State:
+  m_Name: Idle
+  m_Speed: 1
+  m_CycleOffset: 0
+  m_ParentStateMachine: {fileID: 1107495864429789506}
+  m_Position: {x: 0, y: 0, z: 0}
+  m_IKOnFeet: 0
+  m_WriteDefaultValues: 1
+  m_Mirror: 0
+  m_TimeParameterActive: 0
+  m_Motions:
+  - {fileID: 7400000, guid: 57e6260f49d649e388dc3fc192c6f1eb, type: 2}
+  m_Tag:
+  m_SpeedParameter:
+  m_MirrorParameter:
+  m_CycleOffsetParameter:
+  m_TimeParameter:
+--- !u!1101 &1101842485939749152
+Transition:
+  m_Name:
+  m_Conditions:
+  - m_ConditionMode: 1
+    m_ConditionEvent: move
+    m_EventTreshold: 0
+  m_SrcState: {fileID: 1102581618530655769}
+  m_DstState: {fileID: 1102441677617071046}
+  m_Atomic: 1
+  m_Solo: 0
+  m_Mute: 0
+  serializedVersion: 2
+  m_TransitionDuration: 0.1116559
+  m_TransitionOffset: 0
+  m_OrderedInterruption: 0
+  m_CanTransitionToSelf: 1
+--- !u!1102 &1102441677617071046
+State:
+  m_Name: Move
+  m_Speed: 1
+  m_CycleOffset: 0
+  m_ParentStateMachine: {fileID: 1107495864429789506}
+  m_Position: {x: 250, y: 0, z: 0}
+  m_IKOnFeet: 0
+  m_WriteDefaultValues: 1
+  m_Mirror: 0
+  m_TimeParameterActive: 0
+  m_Motions:
+  - {fileID: 7400000, guid: d288108873554c99adf30d7695512849, type: 2}
+  m_Tag:
+  m_SpeedParameter:
+  m_MirrorParameter:
+  m_CycleOffsetParameter:
+  m_TimeParameter:
+--- !u!1101 &1101409747776966984
+Transition:
+  m_Name:
+  m_Conditions:
+  - m_ConditionMode: 2
+    m_ConditionEvent: move
+    m_EventTreshold: 0
+  m_SrcState: {fileID: 1102441677617071046}
+  m_DstState: {fileID: 1102581618530655769}
+  m_Atomic: 1
+  m_Solo: 0
+  m_Mute: 0
+  serializedVersion: 2
+  m_TransitionDuration: 0.0006699115
+  m_TransitionOffset: 0
+  m_OrderedInterruption: 0
+  m_CanTransitionToSelf: 1
+--- !u!1102 &1102114866035339962
+State:
+  m_Name: Idle_r
+  m_Speed: 1
+  m_CycleOffset: 0
+  m_ParentStateMachine: {fileID: 1107495864429789506}
+  m_Position: {x: 0, y: 250, z: 0}
+  m_IKOnFeet: 0
+  m_WriteDefaultValues: 1
+  m_Mirror: 0
+  m_TimeParameterActive: 0
+  m_Motions:
+  - {fileID: 7400000, guid: 1f1a6134068d4b23b2eb2ec1b74291cd, type: 2}
+  m_Tag:
+  m_SpeedParameter:
+  m_MirrorParameter:
+  m_CycleOffsetParameter:
+  m_TimeParameter:
+--- !u!1101 &1101150636033890354
+Transition:
+  m_Name:
+  m_Conditions:
+  - m_ConditionMode: 1
+    m_ConditionEvent: move
+    m_EventTreshold: 0
+  m_SrcState: {fileID: 1102114866035339962}
+  m_DstState: {fileID: 1102224467665363988}
+  m_Atomic: 1
+  m_Solo: 0
+  m_Mute: 0
+  serializedVersion: 2
+  m_TransitionDuration: 0.375
+  m_TransitionOffset: 0
+  m_OrderedInterruption: 0
+  m_CanTransitionToSelf: 1
+--- !u!1102 &1102224467665363988
+State:
+  m_Name: Move_r
+  m_Speed: 1
+  m_CycleOffset: 0
+  m_ParentStateMachine: {fileID: 1107495864429789506}
+  m_Position: {x: 250, y: 250, z: 0}
+  m_IKOnFeet: 0
+  m_WriteDefaultValues: 1
+  m_Mirror: 0
+  m_TimeParameterActive: 0
+  m_Motions:
+  - {fileID: 7400000, guid: 678a683dd6324bb285353eb3c9ace8ae, type: 2}
+  m_Tag:
+  m_SpeedParameter:
+  m_MirrorParameter:
+  m_CycleOffsetParameter:
+  m_TimeParameter:
+--- !u!1101 &1101107852588073447
+Transition:
+  m_Name:
+  m_Conditions:
+  - m_ConditionMode: 2
+    m_ConditionEvent: move
+    m_EventTreshold: 0
+  m_SrcState: {fileID: 1102224467665363988}
+  m_DstState: {fileID: 1102114866035339962}
+  m_Atomic: 1
+  m_Solo: 0
+  m_Mute: 0
+  serializedVersion: 2
+  m_TransitionDuration: 0.125
+  m_TransitionOffset: 0
+  m_OrderedInterruption: 0
+  m_CanTransitionToSelf: 1

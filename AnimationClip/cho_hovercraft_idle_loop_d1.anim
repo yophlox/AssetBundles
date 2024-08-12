@@ -1,0 +1,519 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!74 &7400000
+AnimationClip:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: cho_hovercraft_idle_loop_d1
+  serializedVersion: 4
+  m_AnimationType: 2
+  m_Compressed: 0
+  m_UseHighQualityCurve: 1
+  m_RotationCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 0, y: 0, z: 0, w: 1}
+        inSlope: {x: 0, y: -.27226761, z: 0, w: -.00123560405}
+        outSlope: {x: 0, y: -.27226761, z: 0, w: -.00123560405}
+        tangentMode: 0
+      - time: .100000001
+        value: {x: 0, y: -.056518551, z: 0, w: .998401582}
+        inSlope: {x: 0, y: -.710972011, z: 0, w: -.0387543403}
+        outSlope: {x: 0, y: -.710972011, z: 0, w: -.0387543403}
+        tangentMode: 0
+      - time: .200000003
+        value: {x: 0, y: -.0690600127, z: 0, w: .997612476}
+        inSlope: {x: 0, y: .919916511, z: 0, w: .0520750806}
+        outSlope: {x: 0, y: .919916511, z: 0, w: .0520750806}
+        tangentMode: 0
+      - time: .26666671
+        value: {x: 0, y: .0258280206, z: 0, w: .999666393}
+        inSlope: {x: 0, y: 1.42332101, z: 0, w: -.0308078509}
+        outSlope: {x: 0, y: 1.42332101, z: 0, w: -.0308078509}
+        tangentMode: 0
+      - time: .333333313
+        value: {x: 0, y: .087155737, z: 0, w: .99619472}
+        inSlope: {x: 0, y: .219266906, z: 0, w: -.0167951006}
+        outSlope: {x: 0, y: .219266906, z: 0, w: -.0167951006}
+        tangentMode: 0
+      - time: .466666698
+        value: {x: 0, y: .0314107388, z: 0, w: .999506593}
+        inSlope: {x: 0, y: -.837322772, z: 0, w: .0233879797}
+        outSlope: {x: 0, y: -.837322772, z: 0, w: .0233879797}
+        tangentMode: 0
+      - time: .533333421
+        value: {x: 0, y: -.0495471098, z: 0, w: .998771787}
+        inSlope: {x: 0, y: -1.75526094, z: 0, w: -.103052199}
+        outSlope: {x: 0, y: -1.75526094, z: 0, w: -.103052199}
+        tangentMode: 0
+      - time: .600000024
+        value: {x: 0, y: -.1853237, z: 0, w: .982677579}
+        inSlope: {x: 0, y: -1.81256998, z: 0, w: -.327439606}
+        outSlope: {x: 0, y: -1.81256998, z: 0, w: -.327439606}
+        tangentMode: 0
+      - time: .666666687
+        value: {x: 0, y: -.258819014, z: 0, w: .965925813}
+        inSlope: {x: 0, y: .47989431, z: 0, w: .109205902}
+        outSlope: {x: 0, y: .47989431, z: 0, w: .109205902}
+        tangentMode: 0
+      - time: .699999988
+        value: {x: 0, y: -.205862507, z: 0, w: .978581011}
+        inSlope: {x: 0, y: 2.72106099, z: 0, w: .466097414}
+        outSlope: {x: 0, y: 2.72106099, z: 0, w: .466097414}
+        tangentMode: 0
+      - time: .73333329
+        value: {x: 0, y: -.0774150118, z: 0, w: .996999025}
+        inSlope: {x: 0, y: 4.24916601, z: 0, w: .276270509}
+        outSlope: {x: 0, y: 4.24916601, z: 0, w: .276270509}
+        tangentMode: 0
+      - time: .76666671
+        value: {x: 0, y: .0774152875, z: 0, w: .996999025}
+        inSlope: {x: 0, y: 4.2491641, z: 0, w: -.276270896}
+        outSlope: {x: 0, y: 4.2491641, z: 0, w: -.276270896}
+        tangentMode: 0
+      - time: .800000072
+        value: {x: 0, y: .205862805, z: 0, w: .978580892}
+        inSlope: {x: 0, y: 2.72105598, z: 0, w: -.466097206}
+        outSlope: {x: 0, y: 2.72105598, z: 0, w: -.466097206}
+        tangentMode: 0
+      - time: .833333373
+        value: {x: 0, y: .258819014, z: 0, w: .965925813}
+        inSlope: {x: 0, y: .398461789, z: 0, w: -.089505583}
+        outSlope: {x: 0, y: .398461789, z: 0, w: -.089505583}
+        tangentMode: 0
+      - time: .899999976
+        value: {x: 0, y: .168833405, z: 0, w: .985644579}
+        inSlope: {x: 0, y: -2.10606003, z: 0, w: .347145885}
+        outSlope: {x: 0, y: -2.10606003, z: 0, w: .347145885}
+        tangentMode: 0
+      - time: .966666698
+        value: {x: 0, y: .0272237193, z: 0, w: .999629378}
+        inSlope: {x: 0, y: -1.38034403, z: 0, w: .0636461973}
+        outSlope: {x: 0, y: -1.38034403, z: 0, w: .0636461973}
+        tangentMode: 0
+      - time: 1
+        value: {x: 0, y: 0, z: 0, w: 1}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: cho_hovercraft_wing
+  m_CompressedRotationCurves: []
+  m_PositionCurves: []
+  m_ScaleCurves: []
+  m_FloatCurves: []
+  m_PPtrCurves: []
+  m_SampleRate: 30
+  m_WrapMode: 0
+  m_Bounds:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
+  m_ClipBindingConstant:
+    genericBindings:
+    - path: 3923302820
+      attribute: 2
+      script: {fileID: 0}
+      classID: 4
+      customType: 0
+      isPPtrCurve: 0
+    pptrCurveMapping: []
+  m_AnimationClipSettings:
+    serializedVersion: 2
+    m_StartTime: 0
+    m_StopTime: 1
+    m_OrientationOffsetY: 0
+    m_Level: 0
+    m_CycleOffset: 0
+    m_LoopTime: 1
+    m_LoopBlend: 0
+    m_LoopBlendOrientation: 0
+    m_LoopBlendPositionY: 0
+    m_LoopBlendPositionXZ: 0
+    m_KeepOriginalOrientation: 0
+    m_KeepOriginalPositionY: 1
+    m_KeepOriginalPositionXZ: 0
+    m_HeightFromFeet: 0
+    m_Mirror: 0
+  m_EditorCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: .100000001
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: .200000003
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: .26666671
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: .333333313
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: .466666698
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: .533333421
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: .600000024
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: .666666687
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: .699999988
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: .73333329
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: .76666671
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: .800000072
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: .833333373
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: .899999976
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: .966666698
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalRotation.x
+    path: cho_hovercraft_wing
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: -.27226761
+        outSlope: -.27226761
+        tangentMode: 0
+      - time: .100000001
+        value: -.056518551
+        inSlope: -.710972011
+        outSlope: -.710972011
+        tangentMode: 0
+      - time: .200000003
+        value: -.0690600127
+        inSlope: .919916511
+        outSlope: .919916511
+        tangentMode: 0
+      - time: .26666671
+        value: .0258280206
+        inSlope: 1.42332101
+        outSlope: 1.42332101
+        tangentMode: 0
+      - time: .333333313
+        value: .087155737
+        inSlope: .219266906
+        outSlope: .219266906
+        tangentMode: 0
+      - time: .466666698
+        value: .0314107388
+        inSlope: -.837322772
+        outSlope: -.837322772
+        tangentMode: 0
+      - time: .533333421
+        value: -.0495471098
+        inSlope: -1.75526094
+        outSlope: -1.75526094
+        tangentMode: 0
+      - time: .600000024
+        value: -.1853237
+        inSlope: -1.81256998
+        outSlope: -1.81256998
+        tangentMode: 0
+      - time: .666666687
+        value: -.258819014
+        inSlope: .47989431
+        outSlope: .47989431
+        tangentMode: 0
+      - time: .699999988
+        value: -.205862507
+        inSlope: 2.72106099
+        outSlope: 2.72106099
+        tangentMode: 0
+      - time: .73333329
+        value: -.0774150118
+        inSlope: 4.24916601
+        outSlope: 4.24916601
+        tangentMode: 0
+      - time: .76666671
+        value: .0774152875
+        inSlope: 4.2491641
+        outSlope: 4.2491641
+        tangentMode: 0
+      - time: .800000072
+        value: .205862805
+        inSlope: 2.72105598
+        outSlope: 2.72105598
+        tangentMode: 0
+      - time: .833333373
+        value: .258819014
+        inSlope: .398461789
+        outSlope: .398461789
+        tangentMode: 0
+      - time: .899999976
+        value: .168833405
+        inSlope: -2.10606003
+        outSlope: -2.10606003
+        tangentMode: 0
+      - time: .966666698
+        value: .0272237193
+        inSlope: -1.38034403
+        outSlope: -1.38034403
+        tangentMode: 0
+      - time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalRotation.y
+    path: cho_hovercraft_wing
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: .100000001
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: .200000003
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: .26666671
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: .333333313
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: .466666698
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: .533333421
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: .600000024
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: .666666687
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: .699999988
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: .73333329
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: .76666671
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: .800000072
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: .833333373
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: .899999976
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: .966666698
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalRotation.z
+    path: cho_hovercraft_wing
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 1
+        inSlope: -.00123560405
+        outSlope: -.00123560405
+        tangentMode: 0
+      - time: .100000001
+        value: .998401582
+        inSlope: -.0387543403
+        outSlope: -.0387543403
+        tangentMode: 0
+      - time: .200000003
+        value: .997612476
+        inSlope: .0520750806
+        outSlope: .0520750806
+        tangentMode: 0
+      - time: .26666671
+        value: .999666393
+        inSlope: -.0308078509
+        outSlope: -.0308078509
+        tangentMode: 0
+      - time: .333333313
+        value: .99619472
+        inSlope: -.0167951006
+        outSlope: -.0167951006
+        tangentMode: 0
+      - time: .466666698
+        value: .999506593
+        inSlope: .0233879797
+        outSlope: .0233879797
+        tangentMode: 0
+      - time: .533333421
+        value: .998771787
+        inSlope: -.103052199
+        outSlope: -.103052199
+        tangentMode: 0
+      - time: .600000024
+        value: .982677579
+        inSlope: -.327439606
+        outSlope: -.327439606
+        tangentMode: 0
+      - time: .666666687
+        value: .965925813
+        inSlope: .109205902
+        outSlope: .109205902
+        tangentMode: 0
+      - time: .699999988
+        value: .978581011
+        inSlope: .466097414
+        outSlope: .466097414
+        tangentMode: 0
+      - time: .73333329
+        value: .996999025
+        inSlope: .276270509
+        outSlope: .276270509
+        tangentMode: 0
+      - time: .76666671
+        value: .996999025
+        inSlope: -.276270896
+        outSlope: -.276270896
+        tangentMode: 0
+      - time: .800000072
+        value: .978580892
+        inSlope: -.466097206
+        outSlope: -.466097206
+        tangentMode: 0
+      - time: .833333373
+        value: .965925813
+        inSlope: -.089505583
+        outSlope: -.089505583
+        tangentMode: 0
+      - time: .899999976
+        value: .985644579
+        inSlope: .347145885
+        outSlope: .347145885
+        tangentMode: 0
+      - time: .966666698
+        value: .999629378
+        inSlope: .0636461973
+        outSlope: .0636461973
+        tangentMode: 0
+      - time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalRotation.w
+    path: cho_hovercraft_wing
+    classID: 4
+    script: {fileID: 0}
+  m_EulerEditorCurves: []
+  m_Events: []
