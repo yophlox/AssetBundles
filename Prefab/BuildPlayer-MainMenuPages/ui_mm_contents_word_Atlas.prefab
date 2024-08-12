@@ -8,13 +8,29 @@ Prefab:
     m_TransformParent: {fileID: 0}
     m_Modifications: []
     m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 0}
+  m_SourcePrefab: {fileID: 0}
   m_RootGameObject: {fileID: 1790296881769572309}
-  m_IsPrefabParent: 1
+  m_IsPrefabAsset: 1
+--- !u!1 &1790296881769572309
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1790296881769572323}
+  - component: {fileID: 1790296881769572337}
+  m_Layer: 0
+  m_Name: ui_mm_contents_word_Atlas
+  m_TagString: 
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!4 &1790296881769572323
 Transform:
   m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1790296881769572309}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
@@ -22,27 +38,12 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1790296881769572309
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 1790296881769572323}
-  - 114: {fileID: 1790296881769572337}
-  m_Layer: 0
-  m_Name: "ui_mm_contents_word_Atlas"
-  m_TagString:
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
 --- !u!114 &1790296881769572337
 MonoBehaviour:
   m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1790296881769572309}
   m_Enabled: 1
@@ -52,7 +53,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   material: {fileID: 2100000, guid: ca3aaff49249437789544fc72953b6f9, type: 2}
   mSprites:
-  - name: "ui_itemset_2_word_sale"
+  - name: ui_itemset_2_word_sale
     x: 372
     y: 283
     width: 83
@@ -65,7 +66,7 @@ MonoBehaviour:
     paddingRight: 1
     paddingTop: 1
     paddingBottom: 1
-  - name: "ui_mm_chao_icon_main"
+  - name: ui_mm_chao_icon_main
     x: 428
     y: 428
     width: 80
@@ -78,7 +79,7 @@ MonoBehaviour:
     paddingRight: 0
     paddingTop: 4
     paddingBottom: 0
-  - name: "ui_mm_chao_icon_sub"
+  - name: ui_mm_chao_icon_sub
     x: 428
     y: 338
     width: 78
@@ -91,7 +92,7 @@ MonoBehaviour:
     paddingRight: 1
     paddingTop: 5
     paddingBottom: 4
-  - name: "ui_mm_load_word_connect"
+  - name: ui_mm_load_word_connect
     x: 302
     y: 418
     width: 124
@@ -104,7 +105,7 @@ MonoBehaviour:
     paddingRight: 62
     paddingTop: 9
     paddingBottom: 13
-  - name: "ui_mm_load_word_load"
+  - name: ui_mm_load_word_load
     x: 126
     y: 230
     width: 148
@@ -117,7 +118,7 @@ MonoBehaviour:
     paddingRight: 50
     paddingTop: 9
     paddingBottom: 13
-  - name: "ui_mm_player_genus_0"
+  - name: ui_mm_player_genus_0
     x: 302
     y: 453
     width: 125
@@ -130,7 +131,7 @@ MonoBehaviour:
     paddingRight: 2
     paddingTop: 3
     paddingBottom: 2
-  - name: "ui_mm_player_genus_1"
+  - name: ui_mm_player_genus_1
     x: 0
     y: 263
     width: 125
@@ -143,7 +144,7 @@ MonoBehaviour:
     paddingRight: 2
     paddingTop: 3
     paddingBottom: 2
-  - name: "ui_mm_player_genus_2"
+  - name: ui_mm_player_genus_2
     x: 0
     y: 83
     width: 125
@@ -156,7 +157,7 @@ MonoBehaviour:
     paddingRight: 2
     paddingTop: 3
     paddingBottom: 2
-  - name: "ui_mm_player_genus_3"
+  - name: ui_mm_player_genus_3
     x: 0
     y: 203
     width: 125
@@ -169,7 +170,7 @@ MonoBehaviour:
     paddingRight: 2
     paddingTop: 3
     paddingBottom: 2
-  - name: "ui_mm_player_genus_4"
+  - name: ui_mm_player_genus_4
     x: 0
     y: 143
     width: 125
@@ -182,7 +183,7 @@ MonoBehaviour:
     paddingRight: 2
     paddingTop: 3
     paddingBottom: 2
-  - name: "ui_mm_player_genus_5"
+  - name: ui_mm_player_genus_5
     x: 302
     y: 358
     width: 125
@@ -195,7 +196,7 @@ MonoBehaviour:
     paddingRight: 2
     paddingTop: 3
     paddingBottom: 2
-  - name: "ui_mm_player_ribbon_0"
+  - name: ui_mm_player_ribbon_0
     x: 0
     y: 323
     width: 301
@@ -208,7 +209,7 @@ MonoBehaviour:
     paddingRight: 2
     paddingTop: 2
     paddingBottom: 0
-  - name: "ui_mm_player_ribbon_1"
+  - name: ui_mm_player_ribbon_1
     x: 0
     y: 418
     width: 301
@@ -221,7 +222,7 @@ MonoBehaviour:
     paddingRight: 2
     paddingTop: 2
     paddingBottom: 0
-  - name: "ui_mm_player_species_0"
+  - name: ui_mm_player_species_0
     x: 249
     y: 265
     width: 122
@@ -234,7 +235,7 @@ MonoBehaviour:
     paddingRight: 4
     paddingTop: 4
     paddingBottom: 3
-  - name: "ui_mm_player_species_1"
+  - name: ui_mm_player_species_1
     x: 0
     y: 25
     width: 122
@@ -247,7 +248,7 @@ MonoBehaviour:
     paddingRight: 4
     paddingTop: 4
     paddingBottom: 3
-  - name: "ui_mm_player_species_2"
+  - name: ui_mm_player_species_2
     x: 126
     y: 265
     width: 122

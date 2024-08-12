@@ -8,13 +8,29 @@ Prefab:
     m_TransformParent: {fileID: 0}
     m_Modifications: []
     m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 0}
+  m_SourcePrefab: {fileID: 0}
   m_RootGameObject: {fileID: 1790296881769572318}
-  m_IsPrefabParent: 1
+  m_IsPrefabAsset: 1
+--- !u!1 &1790296881769572318
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1790296881769572348}
+  - component: {fileID: 1790296881769572379}
+  m_Layer: 0
+  m_Name: ui_cmn_item_reference_Atlas
+  m_TagString: 
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!4 &1790296881769572348
 Transform:
   m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1790296881769572318}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
@@ -22,27 +38,12 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1790296881769572318
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 1790296881769572348}
-  - 114: {fileID: 1790296881769572379}
-  m_Layer: 0
-  m_Name: "ui_cmn_item_reference_Atlas"
-  m_TagString:
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
 --- !u!114 &1790296881769572379
 MonoBehaviour:
   m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1790296881769572318}
   m_Enabled: 1
@@ -52,7 +53,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   material: {fileID: 2100000, guid: 5f6e73d9f40e421b8da5574f9320584d, type: 2}
   mSprites:
-  - name: "ui_cmn_icon_badge_0"
+  - name: ui_cmn_icon_badge_0
     x: 264
     y: 618
     width: 32
@@ -65,7 +66,7 @@ MonoBehaviour:
     paddingRight: 0
     paddingTop: 0
     paddingBottom: 0
-  - name: "ui_cmn_icon_item_0"
+  - name: ui_cmn_icon_item_0
     x: 230
     y: 764
     width: 111
@@ -78,7 +79,7 @@ MonoBehaviour:
     paddingRight: 9
     paddingTop: 0
     paddingBottom: 0
-  - name: "ui_cmn_icon_item_1"
+  - name: ui_cmn_icon_item_1
     x: 833
     y: 896
     width: 111
@@ -91,7 +92,7 @@ MonoBehaviour:
     paddingRight: 9
     paddingTop: 0
     paddingBottom: 0
-  - name: "ui_cmn_icon_item_2"
+  - name: ui_cmn_icon_item_2
     x: 0
     y: 685
     width: 111
@@ -104,7 +105,7 @@ MonoBehaviour:
     paddingRight: 9
     paddingTop: 0
     paddingBottom: 0
-  - name: "ui_cmn_icon_item_210000"
+  - name: ui_cmn_icon_item_210000
     x: 0
     y: 949
     width: 125
@@ -117,7 +118,7 @@ MonoBehaviour:
     paddingRight: 2
     paddingTop: 27
     paddingBottom: 26
-  - name: "ui_cmn_icon_item_220000"
+  - name: ui_cmn_icon_item_220000
     x: 230
     y: 654
     width: 85
@@ -130,7 +131,7 @@ MonoBehaviour:
     paddingRight: 22
     paddingTop: 10
     paddingBottom: 12
-  - name: "ui_cmn_icon_item_230000"
+  - name: ui_cmn_icon_item_230000
     x: 129
     y: 949
     width: 125
@@ -143,7 +144,7 @@ MonoBehaviour:
     paddingRight: 2
     paddingTop: 27
     paddingBottom: 26
-  - name: "ui_cmn_icon_item_3"
+  - name: ui_cmn_icon_item_3
     x: 115
     y: 685
     width: 111
@@ -156,7 +157,7 @@ MonoBehaviour:
     paddingRight: 9
     paddingTop: 0
     paddingBottom: 0
-  - name: "ui_cmn_icon_item_4"
+  - name: ui_cmn_icon_item_4
     x: 718
     y: 896
     width: 111
@@ -169,7 +170,7 @@ MonoBehaviour:
     paddingRight: 9
     paddingTop: 0
     paddingBottom: 0
-  - name: "ui_cmn_icon_item_5"
+  - name: ui_cmn_icon_item_5
     x: 115
     y: 817
     width: 111
@@ -182,7 +183,7 @@ MonoBehaviour:
     paddingRight: 9
     paddingTop: 0
     paddingBottom: 0
-  - name: "ui_cmn_icon_item_6"
+  - name: ui_cmn_icon_item_6
     x: 0
     y: 817
     width: 111
@@ -195,7 +196,7 @@ MonoBehaviour:
     paddingRight: 9
     paddingTop: 0
     paddingBottom: 0
-  - name: "ui_cmn_icon_item_7"
+  - name: ui_cmn_icon_item_7
     x: 258
     y: 896
     width: 111
@@ -208,7 +209,7 @@ MonoBehaviour:
     paddingRight: 9
     paddingTop: 0
     paddingBottom: 0
-  - name: "ui_cmn_icon_item_8"
+  - name: ui_cmn_icon_item_8
     x: 603
     y: 896
     width: 111
@@ -221,7 +222,7 @@ MonoBehaviour:
     paddingRight: 9
     paddingTop: 0
     paddingBottom: 0
-  - name: "ui_cmn_icon_item_9"
+  - name: ui_cmn_icon_item_9
     x: 488
     y: 896
     width: 111
@@ -234,7 +235,7 @@ MonoBehaviour:
     paddingRight: 9
     paddingTop: 0
     paddingBottom: 0
-  - name: "ui_cmn_icon_item_920000"
+  - name: ui_cmn_icon_item_920000
     x: 373
     y: 896
     width: 111
@@ -247,7 +248,7 @@ MonoBehaviour:
     paddingRight: 9
     paddingTop: 0
     paddingBottom: 0
-  - name: "ui_cmn_icon_item_g_0"
+  - name: ui_cmn_icon_item_g_0
     x: 88
     y: 485
     width: 84
@@ -260,7 +261,7 @@ MonoBehaviour:
     paddingRight: 6
     paddingTop: 0
     paddingBottom: 0
-  - name: "ui_cmn_icon_item_g_1"
+  - name: ui_cmn_icon_item_g_1
     x: 0
     y: 485
     width: 84
@@ -273,7 +274,7 @@ MonoBehaviour:
     paddingRight: 6
     paddingTop: 0
     paddingBottom: 0
-  - name: "ui_cmn_icon_item_g_2"
+  - name: ui_cmn_icon_item_g_2
     x: 176
     y: 454
     width: 84
@@ -286,7 +287,7 @@ MonoBehaviour:
     paddingRight: 6
     paddingTop: 0
     paddingBottom: 0
-  - name: "ui_cmn_icon_item_g_3"
+  - name: ui_cmn_icon_item_g_3
     x: 264
     y: 464
     width: 84
@@ -299,7 +300,7 @@ MonoBehaviour:
     paddingRight: 6
     paddingTop: 0
     paddingBottom: 0
-  - name: "ui_cmn_icon_item_g_4"
+  - name: ui_cmn_icon_item_g_4
     x: 176
     y: 554
     width: 84
@@ -312,7 +313,7 @@ MonoBehaviour:
     paddingRight: 6
     paddingTop: 0
     paddingBottom: 0
-  - name: "ui_cmn_icon_item_g_5"
+  - name: ui_cmn_icon_item_g_5
     x: 88
     y: 585
     width: 84
@@ -325,7 +326,7 @@ MonoBehaviour:
     paddingRight: 6
     paddingTop: 0
     paddingBottom: 0
-  - name: "ui_cmn_icon_item_g_6"
+  - name: ui_cmn_icon_item_g_6
     x: 0
     y: 585
     width: 84
@@ -338,7 +339,7 @@ MonoBehaviour:
     paddingRight: 6
     paddingTop: 0
     paddingBottom: 0
-  - name: "ui_cmn_icon_item_g_7"
+  - name: ui_cmn_icon_item_g_7
     x: 319
     y: 664
     width: 84
@@ -351,7 +352,7 @@ MonoBehaviour:
     paddingRight: 6
     paddingTop: 0
     paddingBottom: 0
-  - name: "ui_cmn_icon_item_g_8"
+  - name: ui_cmn_icon_item_g_8
     x: 319
     y: 564
     width: 84
@@ -364,7 +365,7 @@ MonoBehaviour:
     paddingRight: 6
     paddingTop: 0
     paddingBottom: 0
-  - name: "ui_cmn_icon_item_g_9"
+  - name: ui_cmn_icon_item_g_9
     x: 345
     y: 796
     width: 84
@@ -377,7 +378,7 @@ MonoBehaviour:
     paddingRight: 6
     paddingTop: 0
     paddingBottom: 0
-  - name: "ui_cmn_icon_item_p"
+  - name: ui_cmn_icon_item_p
     x: 948
     y: 944
     width: 70
